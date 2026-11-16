@@ -1,0 +1,12 @@
+[project]
+name = "supportops-copilot"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.6.6",
+    "notebook>=7.6.5",
+    "pytest>=9.2.0",
+]
